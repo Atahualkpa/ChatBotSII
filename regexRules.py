@@ -16,16 +16,16 @@ listAnnoying = ['Mi dispiace. Vorrei farti divertire di più', 'Possiamo parlare
 howAreYouRegex = '(come|che|tutto|stai) (stai|va|butta|si|bene|ti) ?(\?|dice|senti|va)?$'
 listHowYouAreResponses = ['Tutto bene, tu?','Alla grande e tu?','Tutto apposto, grazie, tu invece?', 'Ti ringrazio, io bene e tu?','sono una macchina, non posso stare male, tu stai bene invece?']
  
-thankRegex = '\w* ?(grazie)[^\?]|(ti ringrazio)[^\?]$'
+thankRegex = '(ti ringrazio|grazie)'
 listThankResponses = ['Non c\'è di che!', 'Ma figurati!', 'Prego!', 'Figurati, per così poco...']
  
-whoAreYouRegex = '(come|qual[e,\']?|hai|chi è) ?(ti chiami|ti chiamano|ti definiresti|è il tuo nome|un nome)?'
+whoAreYouRegex = '(come|qual[e,\']?|hai|chi è|mi dici) ?(ti chiami|ti chiamano|ti definiresti|è il tuo nome|un nome|il tuo nome)?'
 listWhoAreYouResponses = ['Sono un bot programmato per rispondere alle tue domande', 'Mi chiamo Jhonattan e sono qui per parlare con te', 'Sono Jhonattan, pronto a risponderti!']
  
 howOldAreYouRegex = '(quanti|mi dici|dimmi|quanto) (anni|la tua età|la tua eta|sei grande|sei vecchi[a,o]) ?(hai)?'
 listHowOldAreYouResponses = ['Non ho un\'età, sono un bot', 'Sono un bot molto giovane, spero di soddisfare ogni tua richiesta', 'Io sono nuovo, tu invece quanti anni hai?']
  
-badAnswerRegex = '(rispondi|non hai risposto|puoi rispondere|rispondimi|non mi hai dato|dammi) (alla|una risposta)? ?(mia)? ?(domanda)?'
+badAnswerRegex = '(rispondi|non hai risposto|puoi rispondere|rispondimi|non mi hai dato una risposta|dammi una risposta)'
 listBadAnswerRegex = ['Potresti ripetere la domanda in un altro modo, per favore?','Potresti essere più specifico? Non ho capito bene', 'Scusami, prova a formulare la domanda diversamente']
  
 helpRegex = '(aiutarmi|aiuto|aiutami|assistenza|ho bisogno di te|mi aiuti)'
