@@ -1,0 +1,433 @@
+{
+  "userSays": [
+    {
+      "id": "b0802730-1a4e-44bd-9b49-36044820eb90",
+      "data": [
+        {
+          "text": "cancella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32caa2da-b80e-46d1-b1fc-f745d659c369",
+      "data": [
+        {
+          "text": "cancellato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49499543-c633-402b-badc-c808e9bfaae0",
+      "data": [
+        {
+          "text": "cancellate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7890db2b-c6d9-4387-8da4-c23731b7cc0e",
+      "data": [
+        {
+          "text": "cancellati"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9efb8a27-180e-4e54-925b-9f47a1647b06",
+      "data": [
+        {
+          "text": "cancellata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f56cac8-51fd-4285-b763-c01559c10da5",
+      "data": [
+        {
+          "text": "per favore cancella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5cee1da1-4981-4915-8e32-962303615a60",
+      "data": [
+        {
+          "text": "cancella per favore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebb33fe8-fa36-457a-9613-ff9f87c5e325",
+      "data": [
+        {
+          "text": "annulla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a714e992-6ea4-4943-bd9e-adf323834a84",
+      "data": [
+        {
+          "text": "annullalo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc28ec9a-6df2-4b8a-9ef8-1bc569122bcb",
+      "data": [
+        {
+          "text": "annullato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2934c667-727b-4136-a567-16e986fecf15",
+      "data": [
+        {
+          "text": "annullata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddaa5338-5c47-4abc-a6a7-ce3317d05d90",
+      "data": [
+        {
+          "text": "annullate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c3945c2-561f-44b2-bf40-782204c86316",
+      "data": [
+        {
+          "text": "annullati"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5b0444b-75b1-4bdf-9089-ff4131bbe950",
+      "data": [
+        {
+          "text": "cancella questo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c08474d2-2e90-456c-b729-205b0af3d5ed",
+      "data": [
+        {
+          "text": "cancella quello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "690b9cc8-acd0-4ca0-8222-a7c0cd12c3bf",
+      "data": [
+        {
+          "text": "cancellalo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ee36363-4884-4e64-85f6-feeaaf430aee",
+      "data": [
+        {
+          "text": "per favore annulla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "042e27e4-9f86-493c-8d43-5d41738de0ae",
+      "data": [
+        {
+          "text": "cancella cancella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1fbaef58-07ff-4921-86ae-dc73a9a7de5b",
+      "data": [
+        {
+          "text": "salta",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46924f19-b8ab-44b5-b503-24eb527e6f16",
+      "data": [
+        {
+          "text": "saltalo"
+          
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9195d4a-55c9-4a6b-8f6d-2bc0bf0688a5",
+      "data": [
+        {
+          "text": "dimentica"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f30b589f-c9de-42cf-a9c4-fded8ee69247",
+      "data": [
+        {
+          "text": "dimenticalo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97f896a8-1b40-4e28-b6a8-1044f726ad51",
+      "data": [
+        {
+          "text": "dimenticala"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "154c89bd-420b-49f4-824c-35c6fb058b7a",
+      "data": [
+        {
+          "text": "dimenticali"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ac6a1d1-efa3-4c53-a943-0d0b8e66111b",
+      "data": [
+        {
+          "text": "dimenticale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f934b093-ee37-41e8-bafd-5955912dc303",
+      "data": [
+        {
+          "text": "lascia"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c65a181-9903-41eb-a890-640c28a198d6",
+      "data": [
+        {
+          "text": "lascia perdere"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "649c9399-fc07-4523-95c0-9024e2d55b8c",
+      "data": [
+        {
+          "text": "lascialo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84a459b1-0b54-46ec-8169-5d5a62a7dc41",
+      "data": [
+        {
+          "text": "lasciala"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de75b26d-991c-487a-8f57-2d0bacd2895f",
+      "data": [
+        {
+          "text": "lasciale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d519920c-5360-4df1-88de-fe221ea58e05",
+      "data": [
+        {
+          "text": "lasciali"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6602212-2f28-4f35-b50c-d98a6fcb2704",
+      "data": [
+        {
+          "text": "saltato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f267058-7bfc-42e5-9010-61873ebf2906",
+      "data": [
+        {
+          "text": "saltati"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5136b5ee-1f80-4500-a4de-de310be12cf9",
+      "data": [
+        {
+          "text": "saltata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a747bc44-c6eb-4c40-b507-a2c13d35c2f6",
+      "data": [
+        {
+          "text": "saltate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8fe55cad-3bff-4991-b488-a98bfac89aaa",
+      "data": [
+        {
+          "text": "ferma"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2afcd8a4-9021-4b2b-a781-5cbe741b5b25",
+      "data": [
+        {
+          "text": "fermati"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b0d0eea-4a13-44a9-af2a-8b653740715a",
+      "data": [
+        {
+          "text": "no cancella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57ec4bd3-18a6-4a6b-9717-daf6d80a7af9",
+      "data": [
+        {
+          "text": "chiudere "
+        },
+        {
+          "text": "la",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ricerca"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2d93f4f6-b5be-4bcb-a979-97bf1b20f555",
+  "name": "smalltalk.confirmation.cancel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.confirmation.cancel",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Fatto. Serve altro?",
+            "Cancellato.",
+            "Bene. Cos\u0027altro ti serve?",
+            "Ok, sto cancellando."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

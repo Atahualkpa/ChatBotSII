@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "5a1ba3be-ea96-4c93-8c3f-cdd180a2b304",
+      "data": [
+        {
+          "text": "male"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "275c1b2c-f6d3-40dc-a59d-0fbabccebd09",
+      "data": [
+        {
+          "text": "non è bello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eaf11c97-b937-4775-83ad-11060b13db0f",
+      "data": [
+        {
+          "text": "non è buono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84bede0e-79af-4536-8a30-375f1a406d00",
+      "data": [
+        {
+          "text": "non mi piace"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1d1d7c3-9ac0-49ca-978d-ae6d3bd24d6d",
+      "data": [
+        {
+          "text": "molto male"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8e61846-4d0b-44c0-b9e6-d775b0cd6a27",
+      "data": [
+        {
+          "text": "malissimo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "713d1341-c6e3-4eb8-8a52-8f0a3e64afe9",
+      "data": [
+        {
+          "text": "cattivo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d488257e-2225-4159-9f7e-ab9daec7116a",
+      "data": [
+        {
+          "text": "scarso"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a302be69-d408-43df-b291-5cdaa7d5f1bf",
+      "data": [
+        {
+          "text": "scadente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b50d72bf-800d-44f7-a7fe-a7cf3860ad2f",
+      "data": [
+        {
+          "text": "brutto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "aff21910-42d5-48c1-ab1a-bc5c6fcd7fda",
+  "name": "smalltalk.appraisal.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Oh no! Cosa è successo?",
+            "Ops! Sistemiamo tutto.",
+            "Cosa c\u0027è di male?",
+            "Mi dispiace. Posso rimediare?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

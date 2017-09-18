@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "7a103f92-b179-4e57-af8e-016520ea0d68",
+      "data": [
+        {
+          "text": "tornerò"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1636f85d-f941-4be2-9692-1203c7b1e805",
+      "data": [
+        {
+          "text": "torno tra poco"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b824680-d947-4155-a847-01c3f37fb5f4",
+      "data": [
+        {
+          "text": "torno dopo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7ffa934-f1b8-47ae-bf58-dd8ff545d138",
+      "data": [
+        {
+          "text": "tornerò dopo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "682fc6bd-fda5-4a00-9ef6-2d0c7b0c3121",
+  "name": "smalltalk.user.will_be_back",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.will_be_back",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ti aspetto.",
+            "A presto!",
+            "A dopo!",
+            "Ok. Mi troverai qui!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

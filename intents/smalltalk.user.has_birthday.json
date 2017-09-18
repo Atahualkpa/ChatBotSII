@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "336fac41-6a3a-4fa1-8689-b6b6ee75ceb8",
+      "data": [
+        {
+          "text": "oggi è il mio compleanno"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bacceaa-285f-4dcc-ac6c-0b10ce7dda34",
+      "data": [
+        {
+          "text": "è il mio compleanno"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "462b6c5f-9a5b-4f4a-9d17-1db5af6d1b31",
+  "name": "smalltalk.user.has_birthday",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.has_birthday",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Buon compleanno! Festeggiamolo!",
+            "Buon compleanno! Tanti auguri da me!",
+            "Buon compleanno! Tanta fortuna a te!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

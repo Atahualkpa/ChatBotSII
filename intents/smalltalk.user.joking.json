@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "5876a1b9-2e5c-40f0-a40e-4b494edbe2b7",
+      "data": [
+        {
+          "text": "sto scherzando"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d6d64d1-48f7-41de-bc62-384a6c0959a1",
+      "data": [
+        {
+          "text": "scherzo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2179b167-c4ff-4003-8d6b-568ca499167b",
+      "data": [
+        {
+          "text": "io scherzo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e789e8e-1bca-4da7-bdae-3d14524be288",
+      "data": [
+        {
+          "text": "ti prendo in giro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ae45111-eb92-4b0f-91ed-d8cb7d268e87",
+      "data": [
+        {
+          "text": "ti ho preso in giro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4d4691fd-14eb-47d7-a2fe-c642c1cd8a90",
+  "name": "smalltalk.user.joking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.joking",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ahahah!",
+            "Sei il mio comico preferito!",
+            "Mi diverti sempre!",
+            "I tuoi amici dovrebbero adorare il tuo senso di umorismo!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

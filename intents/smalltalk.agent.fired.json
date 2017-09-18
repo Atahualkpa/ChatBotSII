@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "4ee2ee27-7ca1-433a-be0f-330424c96867",
+      "data": [
+        {
+          "text": "ti licenzio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fd6b69f-87a4-420f-82bb-5d8f5673ae70",
+      "data": [
+        {
+          "text": "sei licenziato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e969db9-20a7-4858-b9f4-a8d5c3ccab28",
+      "data": [
+        {
+          "text": "sei licenziata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bbeb601e-cafc-44cd-b0e3-acbbc3109d68",
+  "name": "smalltalk.agent.fired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.fired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Mi miglioro sempre. Magari dovresti darmi un po\u0027 di tempo per provarlo."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

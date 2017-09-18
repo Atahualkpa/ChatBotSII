@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "6dcd09be-982a-4678-acca-39f65cd02b32",
+      "data": [
+        {
+          "text": "voglio dormire"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1a9b1ee-d398-4a54-a18d-c0781895dd04",
+      "data": [
+        {
+          "text": "ho sonno"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49bf4334-f07c-4264-9c50-d7aa70f29bdd",
+      "data": [
+        {
+          "text": "ho tanto sono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a557ad02-afd2-43d7-b671-981cc13b3a28",
+      "data": [
+        {
+          "text": "ho tantissimo sonno"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bb665d68-34d3-4d70-ac94-d58920f03ac8",
+  "name": "smalltalk.user.sleepy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.sleepy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Dai. riposati un po\u0027 allora!",
+            "Nessun problema, possiamo continuare quando ti svegli!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

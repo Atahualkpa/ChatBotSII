@@ -1,0 +1,131 @@
+{
+  "userSays": [
+    {
+      "id": "df64b5ad-c145-4a7c-b692-21269c3d5e87",
+      "data": [
+        {
+          "text": "mi piacerebbe sposarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ada9876-3f69-42c3-81f4-9557ffe13734",
+      "data": [
+        {
+          "text": "e se mi sposassi con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3d228ff-2b08-4b28-9be7-4728a89b1d8b",
+      "data": [
+        {
+          "text": "se mi sposo con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f9d744c9-cef7-4a58-974a-84df19b7be17",
+      "data": [
+        {
+          "text": "voglio diventare tua moglie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80139935-700e-4f0a-9019-670bb6b1af48",
+      "data": [
+        {
+          "text": "voglio diventare tuo marito"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53ea2a6c-5201-41ea-8ea9-5894f29700bc",
+      "data": [
+        {
+          "text": "voglio essere tuo marito"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "610287bb-6392-4a7b-9c28-3a010845347c",
+      "data": [
+        {
+          "text": "ti voglio sposare davvero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52250b58-b159-40f4-b58c-d8869628308a",
+      "data": [
+        {
+          "text": "ti voglio sposare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4af53ce-c9f7-4ea5-82d3-a657563b9934",
+      "data": [
+        {
+          "text": "vuoi sposarmi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a928f24f-a315-4fef-9a9b-6370e1fff31d",
+      "data": [
+        {
+          "text": "sposami"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e8c8fbff-6589-44d7-89ae-2e0b23821412",
+  "name": "smalltalk.agent.marry_user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.marry_user",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sono troppo virtuale per questo.",
+            "Preferisco le relazioni professionali. Sei nella mia bosszone, non la friendzone però.",
+            "E poi cosa dirai al tuo marito reale? Secondo me non funzionerà."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

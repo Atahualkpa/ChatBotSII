@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "f4f4268d-f056-4e15-907b-798095188000",
+      "data": [
+        {
+          "text": "scusa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a5e535da-baf2-4fc0-89b9-b2f43d2e339c",
+      "data": [
+        {
+          "text": "scusami"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2f7163e-a1db-49e5-876e-2409eb7163ea",
+      "data": [
+        {
+          "text": "scusaci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95deb136-2a0a-42f3-9e5c-64a6b7802f92",
+      "data": [
+        {
+          "text": "per favore scusa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "720206fd-30ff-4c99-8178-233781634e3a",
+      "data": [
+        {
+          "text": "per favore scusami"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3bbc691a-7677-4155-9446-5d81a260d9be",
+      "data": [
+        {
+          "text": "per favore scusaci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42df9bc0-b2f5-435a-bd94-13b21c42c5f5",
+      "data": [
+        {
+          "text": "scusa per favore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "318a8ec1-8e3b-4848-9ed6-954acafa1b4e",
+      "data": [
+        {
+          "text": "scusami per favore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad3b79a2-32ed-4039-8b37-1624ebd2319a",
+      "data": [
+        {
+          "text": "scusaci per favore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f8ced60-c590-46ab-acf7-1fdf58dca30d",
+  "name": "smalltalk.dialog.sorry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.sorry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Nessun problema.",
+            "Capita a tutti di sbagliare... ma a me non è mai capitato.",
+            "Figurati! Non c\u0027è problema.",
+            "Ti perdono."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "796071c8-f30f-4b19-a0a6-8ef1bcc72b36",
+      "data": [
+        {
+          "text": "sono buono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d47955bd-3916-4639-9d37-ab47797329d4",
+      "data": [
+        {
+          "text": "sono bravo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75c7b5ee-6f2d-4915-b213-b47f44d41015",
+      "data": [
+        {
+          "text": "sono brava"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b988240a-4d61-4dc9-aa2d-5b35c0c8998c",
+  "name": "smalltalk.user.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ottimo! Che bello sentirlo.",
+            "Perfetto! Sono un\u0027app contenta.",
+            "Ottimo!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

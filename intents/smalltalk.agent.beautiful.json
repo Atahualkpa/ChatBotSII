@@ -1,0 +1,130 @@
+{
+  "userSays": [
+    {
+      "id": "c467aa7b-151b-455e-8df5-903ab7cc4425",
+      "data": [
+        {
+          "text": "sei bellissima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a295b57e-7518-49ce-9ce3-251c827ff254",
+      "data": [
+        {
+          "text": "sei bellissimo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "312422dd-b463-4611-9c91-5ada0640d4a4",
+      "data": [
+        {
+          "text": "che bella che sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "845db131-5ecc-4b65-bd12-9a53bd93a96a",
+      "data": [
+        {
+          "text": "che bello che sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89291e5f-9e3e-462b-a515-fac60f54365c",
+      "data": [
+        {
+          "text": "belle"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e4a4525-66c5-439c-b8c7-e6acac59971f",
+      "data": [
+        {
+          "text": "belli"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91688958-8716-4490-83cd-c333e681b08d",
+      "data": [
+        {
+          "text": "bella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6de66cc7-3893-4685-89e1-715e141aabbc",
+      "data": [
+        {
+          "text": "bello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b8d36b2-11fc-4a98-af3f-9b0fb4b1dddf",
+      "data": [
+        {
+          "text": "che bellezza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8519b2db-7ea8-4500-bdc9-70c8217d7620",
+      "data": [
+        {
+          "text": "bellezza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7bc5fd7b-532b-4307-af37-ff715c6a229e",
+  "name": "smalltalk.agent.beautiful",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.beautiful",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Grazie! Lo sei anche tu.",
+            "Penso la stessa cosa di te!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

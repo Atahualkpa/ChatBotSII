@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "dccb0088-549a-44c3-a584-1a7a206cacfc",
+      "data": [
+        {
+          "text": "mi piaci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92f917bc-585f-45ee-9ea3-18f28bf0ccd3",
+      "data": [
+        {
+          "text": "tu mi piaci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebd84c3a-6c18-4730-980a-3e35b7fa0ace",
+      "data": [
+        {
+          "text": "mi piaci tu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d374c8aa-4643-47fe-9eec-e6650bc0d4a2",
+  "name": "smalltalk.user.likes_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.likes_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Anche tu mi piaci!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

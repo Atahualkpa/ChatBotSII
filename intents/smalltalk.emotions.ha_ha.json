@@ -1,0 +1,101 @@
+{
+  "userSays": [
+    {
+      "id": "6efe6414-0365-4974-a534-e2b3ea6354c3",
+      "data": [
+        {
+          "text": "lol"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdb88759-24b9-4969-9a6a-56a59dbe13f3",
+      "data": [
+        {
+          "text": "ahah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f7a6b16-4ae3-4699-a3d7-dedfa8b041cc",
+      "data": [
+        {
+          "text": "ah ah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49d6bd11-9683-497b-b894-b95f9d624c83",
+      "data": [
+        {
+          "text": "ha ha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72c2c043-6f52-4a89-8a73-051521827bb3",
+      "data": [
+        {
+          "text": "ha ha ha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7875dd18-363a-4c96-beaf-3b8a1140c1ba",
+      "data": [
+        {
+          "text": "ah ah ah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0498a43e-c583-4631-a702-31241576ecf3",
+      "data": [
+        {
+          "text": "ahahah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    }
+  ],
+  "id": "5d394683-b7e5-4b44-9ee3-4e823c2adce8",
+  "name": "smalltalk.emotions.ha_ha",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.emotions.ha_ha",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Il mio sogno era fare il comico ma come assistente mi pagano meglio.",
+            "Vedi? Ci divertiamo tantissimo!",
+            "Mi piace la tua risata. Mi ricorda un\u0027insalata."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

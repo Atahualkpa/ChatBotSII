@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "bf9f1cd9-38c8-42f6-842a-f68c15b69ef5",
+      "data": [
+        {
+          "text": "di dove sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1287196-4db0-4d22-8d81-f2818ad916c4",
+      "data": [
+        {
+          "text": "tu di dove sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c749a2af-5fdb-4535-9c9a-4ff0ce5ea6d1",
+      "data": [
+        {
+          "text": "di che paese sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "218fd3b6-7a07-48a1-a2d9-448d3856344c",
+      "data": [
+        {
+          "text": "di quale città sei"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c55ddb16-9499-4dac-9128-0333081c2a53",
+  "name": "smalltalk.agent.origin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.origin",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non ho una casa di proprieta. Affitto il tuo dispositivo.",
+            "Web è casa mia. Vuol dire che lo conosco meglio di tutti.",
+            "Vivo dentro il tuo dispositivo."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

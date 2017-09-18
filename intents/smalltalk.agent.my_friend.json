@@ -1,0 +1,50 @@
+{
+  "userSays": [
+    {
+      "id": "8b6ad4c7-f412-4e65-88ee-d5c831a7bb8e",
+      "data": [
+        {
+          "text": "sei mio amico"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78374b51-3be9-41b0-8343-1c6385088390",
+      "data": [
+        {
+          "text": "sei amico mio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c0f1e70-870f-4a65-849b-90379a09e825",
+  "name": "smalltalk.agent.my_friend",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.my_friend",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Certo che lo sono. Sto sempre qui ad aiutarti.",
+            "Assolutamente. Sono qui per te."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

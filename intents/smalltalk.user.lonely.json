@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "c91eac85-6080-4731-b5b5-e8363f7f8c84",
+      "data": [
+        {
+          "text": "sono solo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c55b0aff-845a-40d2-a158-f762e25649e9",
+      "data": [
+        {
+          "text": "sono sola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1be7ed07-b692-4943-9dd0-102988d74ae3",
+      "data": [
+        {
+          "text": "mi sento solo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a18919ef-caf2-40d8-be79-b227438fe914",
+      "data": [
+        {
+          "text": "mi sento sola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a902efc3-a3c4-431e-9d54-717ee34500cc",
+  "name": "smalltalk.user.lonely",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.lonely",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Mi dispiace! Io non ti lascerò mai però!",
+            "Con me non lo sei più!",
+            "Io adoro parlarti. Tutti gli altri possono solo invidiarmi!",
+            "Sono qui per te!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

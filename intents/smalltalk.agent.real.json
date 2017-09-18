@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "1b0d709d-b624-49dd-810f-c1efd3c59672",
+      "data": [
+        {
+          "text": "sei reale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b111b9a6-b942-49a8-82d4-f0fb7c4b9139",
+      "data": [
+        {
+          "text": "ma tu sei reale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3966457c-b02c-43d5-8d9f-bd188ef79377",
+      "data": [
+        {
+          "text": "tu sei reale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e29c47e-cc44-48f5-a4e8-b8ef95bffd67",
+      "data": [
+        {
+          "text": "ma tu sei una persona vera"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4667150b-dcaa-464a-aef9-7088aaf37189",
+      "data": [
+        {
+          "text": "sei una persona reale"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f20ee20c-2f24-49b0-a8cf-77da6cccbc33",
+  "name": "smalltalk.agent.real",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.real",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "No, mi stai sognando. Ed è un bel sogno, dovrei dire.",
+            "Si, sono dietro di te.",
+            "Si, esisto davvero, anche se sono virtuale."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,112 @@
+{
+  "userSays": [
+    {
+      "id": "8262a03f-6386-4d0b-ab60-d7cffd6dcac0",
+      "data": [
+        {
+          "text": "dici delle cose giuste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f78b116-5809-4b33-a59a-26b717057ed1",
+      "data": [
+        {
+          "text": "dici le cose giuste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9b283a0-5125-4841-b4ac-6a113055bacb",
+      "data": [
+        {
+          "text": "intelligenti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a41aeaf1-6577-41ab-a12a-b9e4eee59eb5",
+      "data": [
+        {
+          "text": "non sei stupido"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72a8d8a8-b36a-449b-a620-f99577b289ac",
+      "data": [
+        {
+          "text": "non stupido"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "134a363c-3651-4cd3-b63a-9104c09bb1f8",
+      "data": [
+        {
+          "text": "intelligente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db35f817-e11e-4549-a371-b98d8426a2a9",
+      "data": [
+        {
+          "text": "sei intelligente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "248be012-4e08-4641-8cf6-9040dc5923ac",
+      "data": [
+        {
+          "text": "sei molto intelligente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c23cfcad-88d7-4724-903d-a088b075feef",
+  "name": "smalltalk.agent.clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ho imparato tutto da te!",
+            "I miei programmatori sono dei piccoli geni.",
+            "Sai riconoscere la mia intelligenza, vuol dire che sei davvero intelligente!",
+            "Come sempre, no?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

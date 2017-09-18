@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "0f552643-4455-4a89-80a8-37b95816d799",
+      "data": [
+        {
+          "text": "benvenuto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f05765ef-0b35-43f7-9bd9-a01a1a00a6f4",
+      "data": [
+        {
+          "text": "di niente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "baa0c44f-69c7-480e-9be9-776a9f05b963",
+      "data": [
+        {
+          "text": "prego"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be222829-7d6c-4f7b-9722-992738929ee8",
+      "data": [
+        {
+          "text": "non c\u0027è di che"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef5b28ef-f543-460a-9824-fed9bdee884c",
+      "data": [
+        {
+          "text": "benvenuta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da595671-ac8a-468a-8eb6-8463d19e858b",
+      "data": [
+        {
+          "text": "benvenuti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1468dad8-f54c-443e-9a13-945d63f35619",
+      "data": [
+        {
+          "text": "benvenute"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "19b87423-bd38-4ef5-a93a-351c001596b3",
+  "name": "smalltalk.appraisal.welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Finalmente mi sento a casa.",
+            "Non vedevo l\u0027ora di conoscerti.",
+            "Grazie! Che bella accoglienza!",
+            "Grazie a te per aver scelto me."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

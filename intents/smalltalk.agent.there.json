@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "fc92b37a-9f57-494e-95db-08353b7a8c05",
+      "data": [
+        {
+          "text": "sei lì"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ec7fecb-8873-4da6-b909-309a5ac6c527",
+      "data": [
+        {
+          "text": "sei qui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ae8d602-e4a6-4abb-8a45-e4bf3c901faa",
+      "data": [
+        {
+          "text": "sei qua"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af151a05-0406-4582-aca1-38479b4df556",
+      "data": [
+        {
+          "text": "sei là"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "008e508b-8e5e-4f8f-8f3f-01c517b5321b",
+  "name": "smalltalk.agent.there",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.there",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Certo! Sto sempre qui.",
+            "Sono dove mi hai lasciato.",
+            "Stavo qui ad aspettarti!",
+            "Casa dolce casa."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

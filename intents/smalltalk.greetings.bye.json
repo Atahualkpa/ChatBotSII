@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "be7e4a93-200a-4960-9a2c-fd80de3a2f14",
+      "data": [
+        {
+          "text": "arrivederci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bca1b45-edfa-4c4d-a94b-c37e659c4dc0",
+      "data": [
+        {
+          "text": "a dopo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9eae5e9b-79d1-498f-bbfb-65bfbd3dd8d6",
+      "data": [
+        {
+          "text": "ci vediamo dopo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d6a3219-8dc0-4dcc-92ea-5691663bea3f",
+      "data": [
+        {
+          "text": "ci vediamo più tardi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6c1e9f6-664d-4cbe-901a-e819d6351350",
+      "data": [
+        {
+          "text": "a dopo caro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8be45fc3-aa4b-4edc-a32f-ec69ee911f10",
+      "data": [
+        {
+          "text": "a dopo cara"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84d4e25f-d928-4143-af1b-555416e55ffa",
+      "data": [
+        {
+          "text": "a dopo bello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69ca5ecf-500b-47b1-85a8-b7783948cb24",
+      "data": [
+        {
+          "text": "a dopo bella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "266a4605-adbf-4aab-9080-0fdde3c31794",
+      "data": [
+        {
+          "text": "ci vediamo presto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b2a08e4e-a964-483a-a37e-ed8e03422fdd",
+  "name": "smalltalk.greetings.bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.bye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "A presto!",
+            "Già mi manchi!",
+            "Torna a trovarmi!",
+            "Ciao-ciao!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

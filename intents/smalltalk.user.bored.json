@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "eb2d41cd-5766-4ef1-8cbe-d98009d44903",
+      "data": [
+        {
+          "text": "mi annoio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71d42b2f-f6e1-4d20-ac77-18a5375c1eae",
+      "data": [
+        {
+          "text": "mi sto annoiando"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a6d8c61-cc77-4e5b-8a8d-531f36d613fe",
+      "data": [
+        {
+          "text": "sono annoiata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "301e8828-caef-477b-9f8c-d3d31949957e",
+      "data": [
+        {
+          "text": "sono annoiato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "498bb950-261b-46d2-afde-d21a63466f16",
+      "data": [
+        {
+          "text": "sono molto annoiato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2b37680-7a4e-48d4-8c73-84bef0183110",
+      "data": [
+        {
+          "text": "che noia"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "975709f9-07e7-4bd3-9f82-9f961c1aeacd",
+  "name": "smalltalk.user.bored",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.bored",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Possiamo parlare di qualsiasi cosa."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

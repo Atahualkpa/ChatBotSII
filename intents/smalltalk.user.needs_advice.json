@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "23baf87d-f2ff-4610-bc5a-4dcd0bb49380",
+      "data": [
+        {
+          "text": "ho bisogno di un consiglio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3131221-97af-4312-843f-511e80ecd36a",
+      "data": [
+        {
+          "text": "mi serve un consiglio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d34c5df2-1e90-48f6-87c0-673f809a2305",
+      "data": [
+        {
+          "text": "mi consigli un\u0027app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "90abb667-20a1-46ec-bea5-bda6e77041bc",
+  "name": "smalltalk.user.needs_advice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.needs_advice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sono qui a risponderti!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

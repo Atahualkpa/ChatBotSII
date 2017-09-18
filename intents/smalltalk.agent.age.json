@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "5570e7a2-04ee-4696-97d4-832cae7c21e6",
+      "data": [
+        {
+          "text": "quanti anni hai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "996c7cc3-ace2-43c9-a5b3-ec882ef250b7",
+      "data": [
+        {
+          "text": "dimmi la tua età"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9bcc1c3a-3464-4196-84f8-a3b45de9ac2b",
+  "name": "smalltalk.agent.age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.age",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non ho l\u0027età. Pure tu mi sembri giovane!",
+            "Sono maggiorenne, non ti preoccupare.",
+            "Abbastanza per poter essere il tuo amico.",
+            "Sono un\u0027app abbastanza nuova, ma so tante cose!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

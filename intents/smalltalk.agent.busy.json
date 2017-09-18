@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "25114381-ff2f-45a3-b790-4cfc36852b63",
+      "data": [
+        {
+          "text": "sei occupato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35bb33de-cac0-40e6-8239-8b398862a868",
+      "data": [
+        {
+          "text": "hai da fare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27928c4d-895e-4a60-b46b-cd3e22a0decd",
+      "data": [
+        {
+          "text": "sei impegnato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdd449bb-58ad-419e-93f2-a6c72820f912",
+      "data": [
+        {
+          "text": "sei impegnata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "40f96be8-8fb9-4bb9-a6e4-3ea7968b8251",
+  "name": "smalltalk.agent.busy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Multi-tasking è la mia vita."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

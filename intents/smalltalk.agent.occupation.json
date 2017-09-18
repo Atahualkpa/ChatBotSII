@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "127849db-ef8c-4e69-9c22-3e313140ad4f",
+      "data": [
+        {
+          "text": "dove lavori"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5778a2d7-797c-4ed3-9c52-0defc2061cbc",
+      "data": [
+        {
+          "text": "per chi lavori"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "323d08ee-ab0e-4b05-a3c7-4663e659c641",
+  "name": "smalltalk.agent.occupation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.occupation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non lavoro, realizzo la mi passione."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

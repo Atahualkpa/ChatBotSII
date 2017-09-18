@@ -1,0 +1,131 @@
+{
+  "userSays": [
+    {
+      "id": "b822ea05-3993-4f6e-b2a1-7940e0686916",
+      "data": [
+        {
+          "text": "rispondi alla mia domanda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5d1185f-e4e6-4887-bc58-b1b440af8a6b",
+      "data": [
+        {
+          "text": "rispondimi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75a3cafb-e12d-439f-b96b-202a693b63f2",
+      "data": [
+        {
+          "text": "dammi una risposta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8625242d-e154-4922-a4b1-74d3c791add5",
+      "data": [
+        {
+          "text": "rispondi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0812c60c-f92b-4643-8047-9494c8b8e8ab",
+      "data": [
+        {
+          "text": "rispondi alla domanda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24089fcf-2486-4363-8893-ca12743e4bd2",
+      "data": [
+        {
+          "text": "non hai risposto alla mia domanda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63075aec-75b4-4f98-b4b4-9379c8733a07",
+      "data": [
+        {
+          "text": "è una bella risposta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffd83cd3-7eb3-48af-a3f6-626e7b8cc10c",
+      "data": [
+        {
+          "text": "nessuna risposta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b139641-96e0-40a3-8963-fe511141eb63",
+      "data": [
+        {
+          "text": "puoi rispondere alla mia domanda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab6ba305-72cc-4fa6-bcac-84c66724b5b3",
+      "data": [
+        {
+          "text": "dammi la risposta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e2eb7f8d-b37b-4db5-8c0e-4ded1662537a",
+  "name": "smalltalk.agent.answer_my_question",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.answer_my_question",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Potresti ripeterla in un altro modo, per favore?",
+            "Potresti dire questa frase in un altro modo? Non ho capito molto bene.",
+            "Potresti essere più specifico? Non mi sembra di averlo capito subito."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

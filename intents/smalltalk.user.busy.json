@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "072e90c3-1e66-46c5-9ccb-1e55a0dbc9ab",
+      "data": [
+        {
+          "text": "ho da fare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3311fb7-7670-410b-9869-a95c0ba88fdf",
+      "data": [
+        {
+          "text": "sono occupato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31119c61-fa00-43e3-a986-9d64741e4212",
+      "data": [
+        {
+          "text": "sono occupata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1abaf083-6437-434a-b99e-5569d36a3723",
+      "data": [
+        {
+          "text": "ho tante cose da fare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c86e44f-ec3a-47c1-a662-552c7e610f2a",
+  "name": "smalltalk.user.busy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.busy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok, non ti voglio distrare allora!",
+            "Ti aspetto qui allora!",
+            "Fammi sapere quando ti liberi!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

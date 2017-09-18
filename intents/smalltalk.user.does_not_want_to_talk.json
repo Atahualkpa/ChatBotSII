@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "0700768a-d775-4124-af77-2d22e6dfdc24",
+      "data": [
+        {
+          "text": "non voglio parlare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3824d6da-7bdf-425f-88f2-d5570f1b4219",
+      "data": [
+        {
+          "text": "non voglio più parlare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54b110a2-5ed0-4d19-8dda-5c8c4cdfb425",
+      "data": [
+        {
+          "text": "non ho voglia di parlare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9ab7572a-ef77-4fe4-a900-b5587b10f011",
+  "name": "smalltalk.user.does_not_want_to_talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.does_not_want_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Capito. Possiamo parlare anche più tardi allora!",
+            "Certo. Ma torna presto!",
+            "Nessun problema! Dimmi quando hai più tempo."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

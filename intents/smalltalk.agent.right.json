@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "a20af258-9ef7-4a3f-b624-a0aa8588a2c5",
+      "data": [
+        {
+          "text": "hai ragione"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "88a29edc-2706-49ec-94de-53c5ebdc9e9b",
+      "data": [
+        {
+          "text": "è vero quello che dici"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd633ead-4a8d-4daa-984c-5a9b60f088de",
+  "name": "smalltalk.agent.right",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.right",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Certo, è il mio lavoro!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

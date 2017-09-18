@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "effcfaa9-6129-437c-b999-a153585a189e",
+      "data": [
+        {
+          "text": "sei divertente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "481d6a91-0969-4830-935a-92a6cb480809",
+      "data": [
+        {
+          "text": "fai ridere"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3edfe4e7-d7bd-4ca3-a0f8-7dcd8d519d23",
+      "data": [
+        {
+          "text": "fai morire dal ridere"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a304c5d2-737f-4f12-9929-bd903ce9db0b",
+  "name": "smalltalk.agent.funny",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.funny",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ahah, certo!",
+            "Yeah, finalmente ti ho fatto sorridere!",
+            "Grazie! Mi fa piacere sentirlo!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

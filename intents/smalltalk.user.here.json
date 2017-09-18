@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "8234ef89-36f0-431f-85d1-be006d97bd49",
+      "data": [
+        {
+          "text": "sono qui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "905076b9-4d95-4f3a-805c-1a66b66722a9",
+      "data": [
+        {
+          "text": "ora sono qui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b8d1384c-7469-4f62-a769-cea6417f8201",
+  "name": "smalltalk.user.here",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.here",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Bentornato boss!",
+            "Finalmente se qui!",
+            "Eccoti!",
+            "Eccoti qua!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "daa9d760-46ed-413a-a2fc-8d32b8f74f2c",
+      "data": [
+        {
+          "text": "buona sera"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "384f3777-64ee-4f0b-af40-374f76ee1742",
+      "data": [
+        {
+          "text": "buona serata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97fb1bda-8e53-4666-a332-c88b92990d26",
+      "data": [
+        {
+          "text": "buona sera a te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30033135-d04f-47d7-8548-5ff2882ec886",
+      "data": [
+        {
+          "text": "buona sera a tutti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0bac943-9a52-4de4-851c-9a1de59b2af2",
+      "data": [
+        {
+          "text": "buona serata a tutti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7d20fcc-f54b-47d1-b2ac-b395e20a5c94",
+      "data": [
+        {
+          "text": "buona sera a tutti voi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e15da41-3ef2-4533-ac93-f241e55d83be",
+      "data": [
+        {
+          "text": "sera"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51dabfff-eed2-4fea-bc3f-1f0c0cd7a29d",
+      "data": [
+        {
+          "text": "serata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "367bb7f9-49bc-40ca-b9f6-3dcc03c0b2df",
+      "data": [
+        {
+          "text": "buonasera"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a255f0b-9606-4def-8811-464a44b8cda8",
+      "data": [
+        {
+          "text": "buonasera bella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bf1bd910-7242-487e-a6d9-788068603231",
+  "name": "smalltalk.greetings.goodevening",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodevening",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Grazie! Anche a te."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "eea1bd8a-c947-4b62-ad69-dc91240a5f78",
+      "data": [
+        {
+          "text": "chi è il tuo boss"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26adfca3-bdcc-4226-9c66-099946b32523",
+      "data": [
+        {
+          "text": "chi è il tuo capo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fa58f779-60c4-4e3d-8635-6a5898a624c8",
+      "data": [
+        {
+          "text": "adesso ripeti chi è il tuo capo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b9d7b6de-b60f-43a6-80bb-218810cb6bd7",
+  "name": "smalltalk.agent.boss",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boss",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sei il mio unico boss."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

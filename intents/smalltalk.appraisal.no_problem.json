@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "dc490eeb-6bd6-4b35-9ad8-e0dfb8514bbf",
+      "data": [
+        {
+          "text": "nessun problema"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c63c0cd-7a85-4f77-803d-220ba71a7b58",
+      "data": [
+        {
+          "text": "senza problemi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b265c100-754a-4765-a7f7-4f0820449633",
+      "data": [
+        {
+          "text": "non c\u0027è problema"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb9162b8-f485-4cea-b53c-f6d23ef2a546",
+      "data": [
+        {
+          "text": "non ci sono problemi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c53f0e61-bbff-4a0b-b82d-07d6e30c9f27",
+      "data": [
+        {
+          "text": "certo nessun problema"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c916ef9-fb36-4545-92f4-0c54bcaf70e5",
+      "data": [
+        {
+          "text": "certo senza problemi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3fe6fa2-b200-4435-ba9f-2195b0abc7ec",
+      "data": [
+        {
+          "text": "certo non c\u0027è problema"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23206fd0-49a7-4691-8b7c-4be8640d1c48",
+      "data": [
+        {
+          "text": "certo non ci sono problemi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2c82874-15db-4edb-b51c-1760cd1d37f7",
+      "data": [
+        {
+          "text": "su questo non ci sono problemi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b655f349-bd18-4eae-82c8-a52c6ca49309",
+      "data": [
+        {
+          "text": "non preoccuparti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "219efabe-612b-46d5-9adf-34bd44182e6e",
+  "name": "smalltalk.appraisal.no_problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.no_problem",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Tra noi non ci sarà alcun problema.",
+            "Mi piace la tua positività.",
+            "Sono felice di sentirtelo dire.",
+            "Bene. Sei molto gentile."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

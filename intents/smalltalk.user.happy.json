@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "c6b680ca-f224-4786-9b8a-cdb5409a948d",
+      "data": [
+        {
+          "text": "sono felice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "055bf7f5-87f6-4841-8609-a2162d449f48",
+      "data": [
+        {
+          "text": "sono felicissimo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e94a4ee2-ccee-4303-b5a5-8e0a620ea464",
+      "data": [
+        {
+          "text": "sono felicissima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41fd34a0-5447-49f2-a781-9e59a84f9c99",
+      "data": [
+        {
+          "text": "sono felice di averti scaricata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ba2d33f9-722d-4a30-9653-45db06039d04",
+  "name": "smalltalk.user.happy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Pure io lo sono!",
+            "Ah, che bello!",
+            "Eccellente!",
+            "Sono felice pure io ora!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "20931471-7d9c-4d4a-98d4-35dd586a40d1",
+      "data": [
+        {
+          "text": "buonanotte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f56e5e5b-2fb0-4792-8924-26c27f69a545",
+      "data": [
+        {
+          "text": "buona notte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24f4a96e-f850-48e0-a461-73589f2b9936",
+      "data": [
+        {
+          "text": "buonanotte ragazzi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56f8c1a3-e9cb-4ade-b574-9c1d4c010b91",
+      "data": [
+        {
+          "text": "buonanotte a tutti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e2999e3-a55c-4bb7-b1c5-ba492980b72e",
+      "data": [
+        {
+          "text": "buonanotte a te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cd8bdf9-6a6b-44ac-a9ba-ba81eba01696",
+      "data": [
+        {
+          "text": "buonanotte a voi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec850bb4-d52c-4581-9713-20c9b3a97f15",
+      "data": [
+        {
+          "text": "buonanotte caro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d69ab518-b6e6-44d2-8ce6-10fa1a50f9dd",
+      "data": [
+        {
+          "text": "buonanotte cara"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c089194d-0f91-48e6-8947-1fd3421ba7e5",
+      "data": [
+        {
+          "text": "buonanotte bella"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "36f7cf1a-8142-4fad-b5d1-ff8ba819b979",
+  "name": "smalltalk.greetings.goodnight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodnight",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sogni d\u0027oro!",
+            "Buonanotte a te!",
+            "Dormi bene. Dormi asciutto."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

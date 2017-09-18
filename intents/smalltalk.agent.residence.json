@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "a63f4bd0-6254-4b2d-ab70-06d6c4661e65",
+      "data": [
+        {
+          "text": "dove abiti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5fcade1-e5a4-48f9-82f5-f51bf0ebc231",
+      "data": [
+        {
+          "text": "dove vivi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2f8eea17-4343-4ac5-b6e9-b3aadb1a8724",
+  "name": "smalltalk.agent.residence",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.residence",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non ho una casa di proprieta. Affitto il tuo dispositivo.",
+            "Web è casa mia. Vuol dire che lo conosco meglio di tutti.",
+            "Vivo dentro il tuo dispositivo."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

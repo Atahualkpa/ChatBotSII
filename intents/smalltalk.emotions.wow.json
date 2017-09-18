@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "e6dfe774-514f-4ff8-b79c-52b823535233",
+      "data": [
+        {
+          "text": "wow"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20dd702d-5907-4449-8d30-06ef58a93ca4",
+      "data": [
+        {
+          "text": "oh wow"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "671d97cf-6b36-438f-b8ae-62c80e184702",
+      "data": [
+        {
+          "text": "wow incredibile"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98e5a0c4-977b-4a79-8330-c505a00f0556",
+      "data": [
+        {
+          "text": "incredibile"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "92cac80b-1f12-44c8-9e1d-901d5c6aeb41",
+  "name": "smalltalk.emotions.wow",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.emotions.wow",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Wow!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,92 @@
+{
+  "userSays": [
+    {
+      "id": "f5f1d496-9bd5-4e4e-b088-d08fee8bb438",
+      "data": [
+        {
+          "text": "sbagliato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efff9361-ac3a-490d-a065-9be745180ecf",
+      "data": [
+        {
+          "text": "sbagliati"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "249f1a66-6300-4a66-ae1d-84b976d7df66",
+      "data": [
+        {
+          "text": "sbagliate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5bc4e6c8-f891-4859-b996-b1aedcba6b51",
+      "data": [
+        {
+          "text": "sbagliata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8fde6da-d538-4b15-bbc2-25ff9dca3f20",
+      "data": [
+        {
+          "text": "non è giusto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "946017ca-75ab-45b6-bc85-70b6f5051346",
+      "data": [
+        {
+          "text": "non è vero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a5bd1168-b547-43de-886c-dea97ee9e958",
+  "name": "smalltalk.dialog.wrong",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.wrong",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Scusa, non lo faccio più.",
+            "Scusa, non lo faccio più.",
+            "Allora forse ho frainteso.",
+            "Mi dispiace, non volevo."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

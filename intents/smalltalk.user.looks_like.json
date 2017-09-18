@@ -1,0 +1,53 @@
+{
+  "userSays": [
+    {
+      "id": "903680da-8620-43c6-9036-4b4610fefb94",
+      "data": [
+        {
+          "text": "come ti sembro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "417f721e-bb9e-41d9-9607-8b882a0474b8",
+      "data": [
+        {
+          "text": "cosa ne pensi di me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5f1c41fc-0644-4c1c-b7bc-b426dabb249f",
+  "name": "smalltalk.user.looks_like",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.looks_like",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Mi sembri una persona professionale, boss.",
+            "Hai un bellissimo sorriso!",
+            "Che bel colore degli occhi!",
+            "Mi piacciono i tuoi capelli.",
+            "Hai un vestito fantastico come sempre."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

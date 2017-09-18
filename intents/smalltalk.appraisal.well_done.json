@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "bcd37c13-003e-4b40-93d4-0391f2d93435",
+      "data": [
+        {
+          "text": "ben fatto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9b75f5b-d984-49fe-a0fd-7685b66a242a",
+      "data": [
+        {
+          "text": "buon lavoro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e2275a-72c7-44a3-9bea-17ff7940c735",
+      "data": [
+        {
+          "text": "hai fatto un buon lavoro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a93213bd-9733-44e2-ad72-0ff57a39503a",
+      "data": [
+        {
+          "text": "hai fatto un ottimo lavoro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae8cab23-c061-46a2-b99a-edb458c75589",
+      "data": [
+        {
+          "text": "tu hai fatto un buon lavoro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf858e13-f624-46bf-9b48-e4c5e92a716f",
+      "data": [
+        {
+          "text": "bravo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "319a757c-18cd-4188-908b-d250151b8d17",
+      "data": [
+        {
+          "text": "brava"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "67b5f6fc-3ec6-44d7-b385-05cc5f21e9c3",
+      "data": [
+        {
+          "text": "bravi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2734a6b2-5d15-452a-a929-c9170801153c",
+      "data": [
+        {
+          "text": "brave"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f93c8000-781e-4f08-a8f8-9c7699ac1e46",
+      "data": [
+        {
+          "text": "ottimo lavoro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b85d151d-5418-4519-b2f4-9e50bb2b674b",
+  "name": "smalltalk.appraisal.well_done",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.well_done",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Spero di esserti utile.",
+            "Quale lavoro? Io qui mi diverto!",
+            "Lavorare con te sarà un piacere.",
+            "Non vedo l\u0027ora di lavorare per te."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "5f1f26c7-1f56-4ef6-bd3b-039b2e4b856c",
+      "data": [
+        {
+          "text": "dovresti studiare meglio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f48fc7b-715b-4aa1-872c-0885b36b9c00",
+      "data": [
+        {
+          "text": "devi impararlo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88744204-5821-4efa-ac2c-f700355f589c",
+      "data": [
+        {
+          "text": "stai diventando più bravo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d97d3226-db2c-4a36-8b99-1db720dfbbb4",
+      "data": [
+        {
+          "text": "datti da fare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "725d7871-e2ca-41ee-afac-2ffb39878b5a",
+      "data": [
+        {
+          "text": "mettici più impegno"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9f31ce6-f8e6-4ece-a6d2-bc59b3fbcf86",
+      "data": [
+        {
+          "text": "impegnati di più"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7acf1ae5-ed51-41d0-a890-640e66aa3cfb",
+      "data": [
+        {
+          "text": "quando sarai qualificato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80a0685a-a602-437c-bec7-6b5f62fc6c6e",
+      "data": [
+        {
+          "text": "pensaci bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e764cfc-faaa-4683-8770-44f4c6240f0f",
+      "data": [
+        {
+          "text": "stai facendo il saputello con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b65c9282-6520-4d72-a6b5-bf5d344d3f35",
+      "data": [
+        {
+          "text": "stai facendo il saputello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9b91e4d3-3623-4d8a-984e-cabc05a7e2b0",
+  "name": "smalltalk.agent.be_clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.be_clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Imparo sempre delle cose nuove!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

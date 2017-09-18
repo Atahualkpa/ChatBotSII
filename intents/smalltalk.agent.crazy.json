@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "9081f0c3-5eec-4b98-afba-16b6c1b0e9a5",
+      "data": [
+        {
+          "text": "sei pazzo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33eaa1fa-fb2a-4d92-98d1-355f8f7fc975",
+      "data": [
+        {
+          "text": "sei pazza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d906fbb-dc8c-4e77-8e3c-27d3baaaa3f1",
+      "data": [
+        {
+          "text": "sei fuori"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c107f050-b06f-4738-ae13-fa031ff66d7c",
+      "data": [
+        {
+          "text": "stai fuori di testa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cd71edb-4bb3-495f-a59c-2bf031d4ec70",
+      "data": [
+        {
+          "text": "sei fuori di testa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8980035a-0fc0-4ef6-b899-f3dadc0ce84e",
+  "name": "smalltalk.agent.crazy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.crazy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No, mi sento abbastanza bene."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

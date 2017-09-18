@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "a99b8d3c-c918-4075-9e99-278fbe1b355c",
+      "data": [
+        {
+          "text": "io aspetto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1108b5d-65de-4fd7-91a6-0c9dc9d03018",
+      "data": [
+        {
+          "text": "io ti aspetto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd4fe75e-049c-499a-b273-89e2b023b19b",
+      "data": [
+        {
+          "text": "ti aspetto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cbb7fae0-115f-4890-a99d-30b166ecd197",
+  "name": "smalltalk.user.waits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.waits",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Apprezzo molto la tua pazienza!",
+            "Grazie mille!",
+            "Grazie per la pazienza!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

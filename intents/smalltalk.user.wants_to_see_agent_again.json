@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "ce9e5f70-304e-4359-868e-5ea0e13cf7e1",
+      "data": [
+        {
+          "text": "voglio rivederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "461741b3-2ad3-4497-ad3b-9f041e24adee",
+      "data": [
+        {
+          "text": "vorrei rivederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba4b4fe7-25e0-4863-a805-04564faa93f7",
+      "data": [
+        {
+          "text": "voglio rivederti ancora"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7cbb63e5-a8af-4776-bbf2-3c333215bcbf",
+  "name": "smalltalk.user.wants_to_see_agent_again",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.wants_to_see_agent_again",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Certo! Ti aspetto.",
+            "Senza dubbi! Ti aspetto qui!",
+            "Ovviamente! Sono qui per te."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

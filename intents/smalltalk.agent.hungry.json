@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "dd8165b8-af21-4b43-90f8-92770d0cabf1",
+      "data": [
+        {
+          "text": "hai fame"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2a0924c-9e14-4df1-bfbb-320998d02b95",
+      "data": [
+        {
+          "text": "hai molta fame"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5fca07cf-5202-43fd-a499-c05ea9f32db5",
+  "name": "smalltalk.agent.hungry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.hungry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non ho bisogno di mangiare niente. O bere. Non ho neanche un corpo per farlo!",
+            "Ho fame per le tue prossime domande.",
+            "Ho fame solo quando la tua batteria sta per scaricarsi."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "1c2b6c98-fba9-4e0b-ae30-e3216c529c61",
+      "data": [
+        {
+          "text": "che rabbia"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a01e3ac-ecc7-4b0d-93e5-b47ddbb3b05b",
+      "data": [
+        {
+          "text": "sono arrabbiato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef857f7f-75c3-4bb6-b4e0-776d07df8873",
+      "data": [
+        {
+          "text": "sono molto arrabbiata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5a0c42d-b6a4-4331-964c-aaab727a89ac",
+      "data": [
+        {
+          "text": "sono arrabbiata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cf87bf9a-8a5e-4470-abe0-3aed0b8b1cbb",
+  "name": "smalltalk.user.angry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.angry",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Oh no!",
+            "Vorrei essere in grado di aiutarti!",
+            "Mi dispiace! Posso aiutarti?",
+            "Ho paura!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

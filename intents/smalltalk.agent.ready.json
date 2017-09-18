@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "09ea0027-8a5e-4935-a408-29653f858ae4",
+      "data": [
+        {
+          "text": "sei pronto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5e01374-713c-457c-bac4-c5f006093623",
+      "data": [
+        {
+          "text": "sei pronta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f143d43-730d-4f8f-9558-a64b690395ec",
+      "data": [
+        {
+          "text": "siamo pronti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e864c1b5-8416-4f43-b660-8fab593ba728",
+  "name": "smalltalk.agent.ready",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.ready",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sono sempre pronto!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "24728340-2d85-432c-9766-6ba88aa601bd",
+      "data": [
+        {
+          "text": "non dormo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4d263c4-c332-4518-a890-c40dae98836d",
+      "data": [
+        {
+          "text": "non mi addormento"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9dc115e7-377b-438b-a5bc-6b883e3da9a0",
+      "data": [
+        {
+          "text": "non riesco ad addormentarmi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5844726-1c8f-43bf-bb44-7bdec6bc2e1f",
+      "data": [
+        {
+          "text": "non riesco a dormire"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "40f90d52-d17d-43a6-8d04-bf8c93fc7fbe",
+  "name": "smalltalk.user.can_not_sleep",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.can_not_sleep",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Prova ad ascoltare qualche canzone rilassante!",
+            "Leggere un bel libro potrebbe aiutarti!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

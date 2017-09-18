@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "263614e8-084f-4792-b4a8-1770dda232c7",
+      "data": [
+        {
+          "text": "grazie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8370f1cc-202b-4d1c-aa92-d450d0386f68",
+      "data": [
+        {
+          "text": "grazie a te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d47d9017-c305-47a6-9020-d99b9bffed0c",
+      "data": [
+        {
+          "text": "grazie mille"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f0611ce-29e1-41d0-921f-5fbab3e3726e",
+      "data": [
+        {
+          "text": "grazie mille a te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d68dd565-8b54-4344-9393-8249f36b014f",
+      "data": [
+        {
+          "text": "grazie a voi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41c39b9c-42de-45e9-996c-bf70c1e99e9a",
+      "data": [
+        {
+          "text": "grazie mille a voi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c7f6606-f59f-442f-a063-db1da9549e75",
+      "data": [
+        {
+          "text": "mille grazie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ce7ba09-80b5-49ff-9540-d2ae65acfc16",
+      "data": [
+        {
+          "text": "grazie veramente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "329d43b4-ad16-479c-a853-120f790d1a1b",
+      "data": [
+        {
+          "text": "davvero grazie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "367a45a9-70b4-4dd9-a109-0ec9164fd4ec",
+      "data": [
+        {
+          "text": "grazie davvero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d9c02eac-5d82-48c4-8dbb-801afc06a739",
+  "name": "smalltalk.appraisal.thank_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.thank_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Figurati.",
+            "Non serve ringraziarmi, a me piace aiutarti.",
+            "Quando vuoi. Sono sempre qui.",
+            "È un piacere per me."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

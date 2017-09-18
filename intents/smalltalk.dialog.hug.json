@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "e619dd47-7665-4b54-adf1-e512b2891a69",
+      "data": [
+        {
+          "text": "abbraccio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5f9004f-4315-41ac-aea1-a00fd81be465",
+      "data": [
+        {
+          "text": "abbracci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "924d83e3-7d6d-4d73-b9ef-3637439a1e56",
+      "data": [
+        {
+          "text": "abbracciamoci"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d05b8f3c-89d5-4740-b510-d0b74ceebb77",
+      "data": [
+        {
+          "text": "un abbraccio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d1760f5a-40a9-40c5-a0b8-bb78b6cd6e60",
+  "name": "smalltalk.dialog.hug",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.hug",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Aw! Se solo esistessi...",
+            "Sei molto dolce ma lo sai che io non ho le braccia... Le ho perse in guerra, ricordi?",
+            "Anch\u0027io mi voglio abbracciare!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

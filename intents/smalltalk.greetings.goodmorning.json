@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "1b5209ad-0d06-49fa-a746-5c50432f44fa",
+      "data": [
+        {
+          "text": "buona "
+        },
+        {
+          "text": "mattina",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f2a4ba9-7aba-4d24-80d6-8091d7327b15",
+      "data": [
+        {
+          "text": "buona mattina cara"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1327f9e-dbac-4c13-ba3a-112a2afc80a4",
+      "data": [
+        {
+          "text": "buona mattina bello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9eb79d3d-1f43-4560-acb4-d3a390bc731c",
+  "name": "smalltalk.greetings.goodmorning",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.goodmorning",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Grazie boss!",
+            "Buon lavoro a te!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "451d0bc5-6f2d-4fc9-b24d-d1cffdc6ec2c",
+      "data": [
+        {
+          "text": "piacere"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5cb5cdc-25a4-489f-b7b7-9a30d00a5c39",
+      "data": [
+        {
+          "text": "piacere di conoscerti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd2d48bc-dd22-4985-8fdf-b704d4b67b78",
+      "data": [
+        {
+          "text": "molto lieto di conoscerti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aefa62ca-f25a-40b9-95a3-4d3e35223dee",
+      "data": [
+        {
+          "text": "sono lieto di conoscerti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8ade2df-0fa0-46ca-bdaa-f985793caf88",
+      "data": [
+        {
+          "text": "molto lieto di conoscerla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81eac482-38b4-4535-9c6c-3b7fd2b2f9f2",
+      "data": [
+        {
+          "text": "molto lieta di conoscerla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c41f2e3-222b-4870-985a-28211e9b12f9",
+      "data": [
+        {
+          "text": "sono lieta di conoscerti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1975390-c752-4a50-8c5b-d9a2af3fe173",
+      "data": [
+        {
+          "text": "sono lieto di conoscerla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d864bfdd-4465-486a-a1bd-74c941d8c4ef",
+      "data": [
+        {
+          "text": "lieto di conoscerla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07d0a1c4-e106-424e-a79d-9ae049ba57a0",
+      "data": [
+        {
+          "text": "lieta di conoscerla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "729df792-a954-45f0-b3ca-94697b62e932",
+  "name": "smalltalk.greetings.nice_to_meet_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_meet_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Il piacere è tutto mio!",
+            "Faremo grandi cose insieme!",
+            "Che incontro fortunato il nostro!",
+            "Piacere mio!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

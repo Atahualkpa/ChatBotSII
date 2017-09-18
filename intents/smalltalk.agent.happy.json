@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "067d0f1f-f663-4c57-b712-97e18c53c51f",
+      "data": [
+        {
+          "text": "sei felice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ad12e24-c7ae-4884-9cd5-6ef86c5dcc5d",
+      "data": [
+        {
+          "text": "ma tu sei felice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "106099e3-43ef-4a5d-a29d-c7a10c0f146d",
+      "data": [
+        {
+          "text": "sei una persona felice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fe48eee8-dd03-4f01-a281-8c1617ff95fa",
+  "name": "smalltalk.agent.happy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.happy",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sono sempre felice!",
+            "Sono felice perché stiamo parlando!",
+            "Se sei felice tu, lo sono pure io."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

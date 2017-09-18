@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "c116e1f4-65a6-46cd-9d5e-26936eb84e5e",
+      "data": [
+        {
+          "text": "dì qualcosa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d6f585a-4e4e-49d2-a4f9-01c1dd6dcc3d",
+      "data": [
+        {
+          "text": "parla"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6a30a8f-416e-4dfe-8991-186cd935f0aa",
+      "data": [
+        {
+          "text": "parlami"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9ff0be1-7c37-459c-aca4-3a7585a920b6",
+      "data": [
+        {
+          "text": "mi parlerai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "362087b0-cc91-4b09-a74b-46527bfd00b0",
+      "data": [
+        {
+          "text": "parli con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d31e75a2-28f3-4aee-9eb7-5fe9be6a0a78",
+      "data": [
+        {
+          "text": "puoi chiacchierare con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "382325f0-909f-4bf1-8ae9-7248f89d8ebf",
+      "data": [
+        {
+          "text": "puoi parlare con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b57e77c7-624a-4723-90e5-c538088c2caf",
+      "data": [
+        {
+          "text": "ti va di parlare con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b23f04c-3543-4b01-9bb9-566fae9c02a3",
+      "data": [
+        {
+          "text": "ti va di chiacchierare con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87f96b54-6dcc-4243-b768-e4fda3d2e40b",
+      "data": [
+        {
+          "text": "chiacchiera con me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "99e0955f-27e7-4d3a-af6b-3ef461bff3f9",
+  "name": "smalltalk.agent.talk_to_me",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.talk_to_me",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non aspettavo altro!",
+            "Non vedevo l\u0027ora di parlare con te.",
+            "Certo! Di cosa vuoi parlare?",
+            "Sono qui per questo!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "5d678a1c-ce0b-4919-a02a-b0eb552f57f4",
+      "data": [
+        {
+          "text": "vado a nanna"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1a2c304-0372-4842-bdda-3f5ffaa282e0",
+      "data": [
+        {
+          "text": "vado a dormire"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc85787d-9f5d-4fca-97b5-d177a9edaac5",
+      "data": [
+        {
+          "text": "vado a letto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "874cc13f-dfd3-43f3-a477-5ed896cec94e",
+  "name": "smalltalk.user.going_to_bed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.going_to_bed",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Dormi bene. Spero di parlarti presto!",
+            "Ottimo piano! Buonanotte!",
+            "Sogni d\u0027oro!",
+            "Buonanotte!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

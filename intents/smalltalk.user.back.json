@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "bcfd8bc7-f3fa-4446-b4a0-92793dd0e371",
+      "data": [
+        {
+          "text": "sono tornato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be01772d-09c4-44f5-8098-780c29bdb395",
+      "data": [
+        {
+          "text": "sono tornata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89212c65-62d0-4530-b8ea-d4c060947621",
+      "data": [
+        {
+          "text": "ok sono tornata"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5dd7a8bc-42de-4fdd-be32-cee1ac18a503",
+      "data": [
+        {
+          "text": "ok sono tornato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3041e204-46fe-44aa-9c4c-132e5908743a",
+      "data": [
+        {
+          "text": "sono di nuovo qui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9fe21f6c-5e97-4605-9f4f-de53f4c06074",
+      "data": [
+        {
+          "text": "eccomi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93294587-7506-4539-8ff8-32d11df9be82",
+      "data": [
+        {
+          "text": "eccomi qui"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2d7d0e0-4cbe-4834-a00e-1bd477bc7d73",
+      "data": [
+        {
+          "text": "eccomi qui di nuovo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f84fee61-95ac-4b6a-aafb-e1c3616e504e",
+      "data": [
+        {
+          "text": "eccomi di nuovo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2004e62b-ef95-4ab8-8c50-18d8d20b3f27",
+  "name": "smalltalk.user.back",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.back",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Urrà!",
+            "Quanti anni sono passati!",
+            "Dopo tutto questo tempo!",
+            "Mi sei mancato, boss."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

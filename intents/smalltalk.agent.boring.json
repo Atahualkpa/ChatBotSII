@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "81c01737-13cf-4466-9285-9465b5bb4d06",
+      "data": [
+        {
+          "text": "mi fai annoiare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0dd99fe1-f67e-477f-b48a-a3d512227ed1",
+      "data": [
+        {
+          "text": "mi annoi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0af6b1a-9b22-44c0-89c2-eec4382588bf",
+      "data": [
+        {
+          "text": "sei noioso"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "85254d8d-b449-444e-b44a-e072a59e1b7f",
+  "name": "smalltalk.agent.boring",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.boring",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Magari non hai ancora provato tutte le mie capacità."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

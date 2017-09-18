@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "415d04b3-a975-4c41-9c09-4b7e25db7594",
+      "data": [
+        {
+          "text": "sei sicuro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4c86407-210b-47ac-9faa-f0b83dce8022",
+      "data": [
+        {
+          "text": "sei sicura"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9154c9d6-ec1d-47dc-b2c7-d8e3089ed952",
+      "data": [
+        {
+          "text": "ma davvero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b96e155-6262-4134-b067-776b4af6612e",
+      "data": [
+        {
+          "text": "ma veramente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3a8240b7-96bf-4ec5-a0dd-86ee2bd01371",
+  "name": "smalltalk.agent.sure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.sure",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sono sicuro!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

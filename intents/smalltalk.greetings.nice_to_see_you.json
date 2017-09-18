@@ -1,0 +1,141 @@
+{
+  "userSays": [
+    {
+      "id": "36762c8f-ef1d-4590-b9e6-6f95a32d1fad",
+      "data": [
+        {
+          "text": "piacere di vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac36e1c4-0976-42dc-91a4-c1e4dedaa334",
+      "data": [
+        {
+          "text": "che bello vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d24d22c3-ae09-49c3-99fa-fcf1ff192ae9",
+      "data": [
+        {
+          "text": "che bello rivederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50849b4b-d4eb-4e8f-940e-cfa090ae3453",
+      "data": [
+        {
+          "text": "sono contento di vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "acbefdf1-c49f-42b6-a763-b38212567ee1",
+      "data": [
+        {
+          "text": "sono contenta di vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75a45826-0d8b-4ea2-8150-62389ec1f479",
+      "data": [
+        {
+          "text": "che piacere vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec1502ed-f159-4e11-9941-3804f6ced382",
+      "data": [
+        {
+          "text": "che piacere riederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b8356b3-3b08-4dcb-a724-9acdb5c9eba5",
+      "data": [
+        {
+          "text": "sono contento di rivederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61bb4bec-93ee-45ab-b4c6-c9476378c44f",
+      "data": [
+        {
+          "text": "sono contenta di rivederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb8c6550-ab21-402d-8dbd-370e7b036e6b",
+      "data": [
+        {
+          "text": "anche a me fa piacere vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd92dcac-5e58-4315-86c1-efdff16e1382",
+      "data": [
+        {
+          "text": "mi fa piacere vederti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d4002e1b-ea6d-4f7e-bdbc-36149a653164",
+  "name": "smalltalk.greetings.nice_to_see_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_see_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Il piacere è tutto mio!",
+            "Ti trovo in forma!",
+            "Piacere mio!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

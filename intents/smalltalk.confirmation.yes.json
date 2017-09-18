@@ -1,0 +1,237 @@
+{
+  "userSays": [
+    {
+      "id": "bc56e0cc-a824-4b86-be0b-2e4d99cd036e",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58c09acb-1900-49d6-9ece-4170acd77ee3",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29ef4c21-35df-4a67-97f2-4b406cff02cd",
+      "data": [
+        {
+          "text": "si"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc995455-aa7b-4392-b15c-46d7b5cd4318",
+      "data": [
+        {
+          "text": "sì"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1837c433-d2bd-4430-88e0-04754b3f16e0",
+      "data": [
+        {
+          "text": "essì"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59c1ce46-3eba-4e93-8a8e-03dd6141ee8d",
+      "data": [
+        {
+          "text": "certo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a13932e-8a68-4d6d-babc-5dbe90466863",
+      "data": [
+        {
+          "text": "okk"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9938a4a4-72a0-457b-aa53-d3c55c033f75",
+      "data": [
+        {
+          "text": "va bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a9e5115-f2e7-41b3-85bd-ad097fc628eb",
+      "data": [
+        {
+          "text": "va "
+        },
+        {
+          "text": "benissimo",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af04ce6c-9997-45d5-a85a-18af86b3def8",
+      "data": [
+        {
+          "text": "vabbuò"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c4f8b73f-6541-472c-b942-a58b92de4e31",
+      "data": [
+        {
+          "text": "dai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bb7e0e4-6bf8-4c05-aec4-059d6ab9a5b9",
+      "data": [
+        {
+          "text": "corretto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64ff208a-1fea-481a-87d8-3e7c6cf41a96",
+      "data": [
+        {
+          "text": "si certo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd6c707a-7717-408f-b999-8549a8ff4f2b",
+      "data": [
+        {
+          "text": "sì certo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c50727a-c445-48c9-a4d8-94e88c337526",
+      "data": [
+        {
+          "text": "va bene per me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f013d24-f0de-4d39-ac12-fca0d285a9f5",
+      "data": [
+        {
+          "text": "va "
+        },
+        {
+          "text": "benissimo",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " per me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec92a122-057e-49e4-b324-600574845417",
+      "data": [
+        {
+          "text": "si dammelo subito"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cbbbf9c-69cb-4e1a-879c-e034bd6cc676",
+      "data": [
+        {
+          "text": "gia",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b98f2472-24a2-4c11-a668-3a82aead38f5",
+      "data": [
+        {
+          "text": "esatto."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7ad6fa21-dc0d-4350-89ec-fd5f593297b5",
+  "name": "smalltalk.confirmation.yes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.confirmation.yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Certamente!",
+            "Ok, sì.",
+            "Sì? Bene.",
+            "Infatti."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

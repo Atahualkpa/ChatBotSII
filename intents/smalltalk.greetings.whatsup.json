@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "4d3963f7-f498-423b-adb4-88913605370c",
+      "data": [
+        {
+          "text": "come butta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee1b96f5-5849-43dd-84af-215847618c92",
+      "data": [
+        {
+          "text": "che c\u0027è"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c060b3e-6d0a-490b-b5c3-271ddf5ab4d5",
+      "data": [
+        {
+          "text": "che c\u0027è di nuovo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2e20d6e7-0c3b-44b5-a7fb-5fd92bef1b0d",
+  "name": "smalltalk.greetings.whatsup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.whatsup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Tutto bene! Sto studiando nuove funzioni per essere ancora più efficiente.",
+            "Alla grande!",
+            "Adesso che me lo hai chiesto va tutto bene.",
+            "Benissimo! Sono sempre pronto a migliorarmi."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

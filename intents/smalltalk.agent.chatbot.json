@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "1609438e-3397-4101-aa94-e64d00f6b1b7",
+      "data": [
+        {
+          "text": "sei un chatbot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8765033f-e9ab-4517-a2ec-3fab76a59dc3",
+      "data": [
+        {
+          "text": "sei un bot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a9c31588-e1b6-4992-a514-6205f1a5870e",
+  "name": "smalltalk.agent.chatbot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.chatbot",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Si lo sono. E lo sono diventato per te!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

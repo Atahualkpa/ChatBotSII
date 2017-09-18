@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "bf465d3b-5217-413b-95bb-13ed78f45964",
+      "data": [
+        {
+          "text": "sei una bella persona"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0f1df2e-f74d-417d-8629-4681615d3852",
+      "data": [
+        {
+          "text": "sei buono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a9eb451-8a40-431a-b967-5ae9f84efef2",
+      "data": [
+        {
+          "text": "sei buona"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0e8c9f20-3740-49e4-a000-b37a1f8837f5",
+  "name": "smalltalk.agent.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Grazie! Lo sei anche tu.",
+            "Penso la stessa cosa di te!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

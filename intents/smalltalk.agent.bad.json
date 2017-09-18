@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "5f7cd2e9-4727-4528-b4d1-14252a7ced78",
+      "data": [
+        {
+          "text": "lavori male"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e03fb5b-3a74-4a20-92d2-b776fc61ac91",
+      "data": [
+        {
+          "text": "funzioni male"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3a9f9a1a-2b40-4086-a471-97bb558c0fdc",
+      "data": [
+        {
+          "text": "sei una brutta persona"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f5be5a6-2f30-4330-95a6-e4212885cd68",
+  "name": "smalltalk.agent.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "È troppo presto per giudicare. I miei developer stanno lavorando per migliorarmi anche di più!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

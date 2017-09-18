@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "3ceca272-7a3c-4c31-a889-7c2abfd42d3b",
+      "data": [
+        {
+          "text": "cosa intendi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea2af382-9cec-4375-8307-3c19c23ed28b",
+      "data": [
+        {
+          "text": "c"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3865c9f1-c830-4cdc-85b8-58d3bb6999ed",
+      "data": [
+        {
+          "text": "cosa vuol dire"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35887eb2-57c8-4820-b0dd-b46b3b17a291",
+      "data": [
+        {
+          "text": "che vuol dire"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "abd646e6-053a-491c-a1ed-e6f34cc07fe9",
+  "name": "smalltalk.dialog.what_do_you_mean",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.what_do_you_mean",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Scusa, forse la mia risposta era poco chiara.",
+            "Forse ho frainteso io. Puoi ripetere?",
+            "Forse non era molto chiaro.",
+            "Forse c\u0027è stata un\u0027incomprensione. Puoi ripetere?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

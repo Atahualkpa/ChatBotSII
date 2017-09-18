@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "08c0001a-6333-49d7-8c4e-af97e0725dea",
+      "data": [
+        {
+          "text": "non mi interessa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87600c09-06df-4a62-a047-112ea4935239",
+      "data": [
+        {
+          "text": "non mi interessa tanto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ba625fc-5b62-4aa4-a171-a7aa095f8c37",
+      "data": [
+        {
+          "text": "non me ne frega"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da45391e-a75b-4a22-b54f-cbc4d3c58dee",
+      "data": [
+        {
+          "text": "non me ne frega niente"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c4c8272c-3e33-411d-b2e3-65df0da10a04",
+  "name": "smalltalk.dialog.i_do_not_care",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.dialog.i_do_not_care",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Possiamo parlare di qualsiasi cosa."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

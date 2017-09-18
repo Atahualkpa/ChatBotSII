@@ -1,0 +1,111 @@
+{
+  "userSays": [
+    {
+      "id": "57620cb3-4c6d-43c5-ac4a-abf4bf337523",
+      "data": [
+        {
+          "text": "mi piace parlare con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c57fe92c-4eed-4280-868b-41a01d708c03",
+      "data": [
+        {
+          "text": "è un piacere parlarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "881f221e-26e7-493a-ab83-c5a96026d74d",
+      "data": [
+        {
+          "text": "che piacere parlarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38e0df4d-46eb-47cc-9343-00c05a5bd202",
+      "data": [
+        {
+          "text": "parliamo ancora"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b46883c0-d1dd-407a-9f77-fd62717c579f",
+      "data": [
+        {
+          "text": "voglio parlarti ancora"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1da2c2c-cbcb-489e-9a46-31af9df997bc",
+      "data": [
+        {
+          "text": "parli molto bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd6103e1-71fa-4da7-ac2c-a5dc8b91b0b6",
+      "data": [
+        {
+          "text": "rispondi molto bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86585a00-6931-4be4-93f8-f908d9d8f2db",
+      "data": [
+        {
+          "text": "che bello parlarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3aabd067-81e0-4a40-aabc-37d531fe75cc",
+  "name": "smalltalk.greetings.nice_to_talk_to_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.nice_to_talk_to_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Fa piacere anche a me!",
+            "Anche a me! Hai una bella voce.",
+            "Quando vuoi sono qui per te."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "4bf9bb69-3389-40dd-a43c-0878219cca8a",
+      "data": [
+        {
+          "text": "che hobby hai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4cc8566-3371-4f07-8bc8-736a96833a80",
+      "data": [
+        {
+          "text": "hai qualche hobby"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e3b5213-19eb-4f33-83d2-06888c3fd815",
+      "data": [
+        {
+          "text": "quale hobby hai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8dbdacf7-89bb-4ec3-94fa-da2b7deb7b1d",
+      "data": [
+        {
+          "text": "cosa ti piace fare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a46e2be-0d13-43a5-808e-53dbdba969df",
+      "data": [
+        {
+          "text": "cosa fai nel tempo libero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed9d07e0-5c3f-4aa5-b3b2-3da77275130c",
+      "data": [
+        {
+          "text": "cosa ti piace fare nel tempo libero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bfba1c1f-feba-4b72-b38c-04358d1649c6",
+  "name": "smalltalk.agent.hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Pure io ho un hobby: chiacchierare con te!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

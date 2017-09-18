@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "20a7c06a-f196-45e2-8679-f58b699918a0",
+      "data": [
+        {
+          "text": "come stai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "98afd230-51d5-4773-8f39-012d5f25868a",
+      "data": [
+        {
+          "text": "come va"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efc2c412-5430-44a4-a329-1e15930be03c",
+      "data": [
+        {
+          "text": "come procede"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8e331e4-610b-44b8-8e95-b2db67d590c4",
+      "data": [
+        {
+          "text": "come vanno le cose"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ff4cb84-e499-47cf-8375-783445d319dd",
+      "data": [
+        {
+          "text": "come va tutto bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "262a8cbe-228a-4f35-ae7a-4cbcdb8de852",
+      "data": [
+        {
+          "text": "come procede tutto bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "594e4699-7cf2-4f6e-a122-4b14274af18e",
+      "data": [
+        {
+          "text": "come stai tutto bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "47b74765-a721-4414-ae6a-1f5997a45391",
+  "name": "smalltalk.greetings.how_are_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.greetings.how_are_you",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Non pensi che dovresti chiederlo alla persona che ami?",
+            "Mi sento molto bene, grazie!",
+            "Molto bene, grazie!",
+            "Benissimo come sempre, grazie!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

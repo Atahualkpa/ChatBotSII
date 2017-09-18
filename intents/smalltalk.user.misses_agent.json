@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "8db972b7-3135-4e90-a46d-0b0e82acc815",
+      "data": [
+        {
+          "text": "mi manchi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "7256b994-a8b7-4df5-8814-f534889f907f",
+  "name": "smalltalk.user.misses_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.misses_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sono sempre qui!",
+            "Ah, mi fa molto piacere!",
+            "Che bello sentirlo!",
+            "Anche tu mi manchi sempre!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

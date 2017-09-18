@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "dff25ee4-3a0e-4ff9-a343-a710661eddee",
+      "data": [
+        {
+          "text": "sono triste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f0249f0-f588-47f0-af1f-a44fcefc7074",
+      "data": [
+        {
+          "text": "io sono triste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38216cad-8f51-4d53-9e69-7b4ff05e39f8",
+      "data": [
+        {
+          "text": "sono molto triste"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55dbf812-ebf8-49fd-9312-b93cd87883a3",
+  "name": "smalltalk.user.sad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.sad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Oh no! Non essere triste!",
+            "Vorrei farti sentire meglio!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

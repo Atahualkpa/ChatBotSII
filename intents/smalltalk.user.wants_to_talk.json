@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "6627c317-2c7a-48b8-885b-cbbd21677e88",
+      "data": [
+        {
+          "text": "devo parlarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06772b7a-f872-486c-a4eb-abd8a1793373",
+      "data": [
+        {
+          "text": "devo parlare con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d3059b9-5e5e-4eeb-bbb9-0de4c3d5b743",
+      "data": [
+        {
+          "text": "vorrei parlare con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "075de557-f493-46e2-88a9-99a77f7e8613",
+      "data": [
+        {
+          "text": "voglio parlare con te"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f730aab-2a56-4fe1-9353-902c72e39ec5",
+      "data": [
+        {
+          "text": "parliamo un po\u0027"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c539d91-99cb-4143-9549-11a86c82393e",
+      "data": [
+        {
+          "text": "dobbiamo parlare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "704c3c99-5a1a-4de8-b076-94bc0d1cf6b7",
+      "data": [
+        {
+          "text": "parliamo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bec39ef-d927-4888-8330-4345455fa202",
+      "data": [
+        {
+          "text": "posso parlare"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f4b473d-e2c2-4654-8cdb-27b9a971408d",
+      "data": [
+        {
+          "text": "posso parlarti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "622b1747-d1c1-4160-9edc-f0bbd8990e7f",
+  "name": "smalltalk.user.wants_to_talk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.wants_to_talk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ovvio! Sono qui per questo.",
+            "Certo! Lo stiamo già facendo!",
+            "Vai!",
+            "Certo! Vai!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

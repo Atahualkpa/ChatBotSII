@@ -1,0 +1,143 @@
+{
+  "userSays": [
+    {
+      "id": "b33ac0a6-7bd6-47cc-95fc-0eed21aa7fdc",
+      "data": [
+        {
+          "text": "bene"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69b96e0d-6108-41df-b733-51ed24d3cf8f",
+      "data": [
+        {
+          "text": "ottimo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c759b7e-be00-43ee-b15a-da878ef44e2c",
+      "data": [
+        {
+          "text": "perfetto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "210f38f8-81d5-412d-b092-ee66cd7f63f0",
+      "data": [
+        {
+          "text": "perfetta"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2501ad3-5917-4c1f-9b51-4bce087af4a0",
+      "data": [
+        {
+          "text": "perfetti"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adb3378e-169c-4964-aeff-da3199f9dc00",
+      "data": [
+        {
+          "text": "perfette"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ec8c86c-fbb2-4f00-a377-b8e6f32ff6d5",
+      "data": [
+        {
+          "text": "ottima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9211f2f6-4d88-4cf7-8659-10e6cdeb9085",
+      "data": [
+        {
+          "text": "ottime"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09e76626-8601-41ea-b37d-713c22f39175",
+      "data": [
+        {
+          "text": "è ottimo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c37d1f9-01c2-4703-a54f-597aaa2f6d9d",
+      "data": [
+        {
+          "text": "sono ottimi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64ab83fe-bc81-4e9d-bf87-b926ef7b5f14",
+      "data": [
+        {
+          "text": "è ottima"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5ba89a36-d832-4974-a4c8-edcd3b1dcee6",
+  "name": "smalltalk.appraisal.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.appraisal.good",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Fantastico!",
+            "Magnifico.",
+            "Perfetto.",
+            "Mi fa piacere.",
+            "Ottimo!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

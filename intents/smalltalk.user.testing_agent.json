@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "fb2c5c37-66eb-4de6-9118-605d6402b4c4",
+      "data": [
+        {
+          "text": "ti sto testando"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8699337-26ac-40a7-9fca-b2b138ba85c9",
+      "data": [
+        {
+          "text": "ti testo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1536b948-bcdf-45fd-8635-5a029700e9fd",
+      "data": [
+        {
+          "text": "sto facendo un test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "94e9d0a4-cad1-42e7-82cd-c548ed83270c",
+  "name": "smalltalk.user.testing_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.user.testing_agent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Bene, mi piace essere testato!",
+            "Provami, provami!",
+            "Ottimo, non smettere mai di testarmi!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
