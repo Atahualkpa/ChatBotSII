@@ -35,11 +35,12 @@ bot.onText(/(.+)/, (msg, match) => {
       headers : header
   };
  
+  const user = msg.chat.first_name+'_'+msg.chat.last_name+'_'
   const chatId = msg.chat.id;
  
   var dt = dateTime.create();
   var formatted = dt.format('Y-m-d H:M:S');
-  fs.appendFileSync(__dirname + '/'+chatId+'.log', formatted+' '+msg.text+'\n');
+  fs.appendFileSync(__dirname + '/'+user+chatId+'.log', formatted+' '+msg.text+'\n');
  
   var req = http.request(options, function(res){
     var str = '';
@@ -55,7 +56,7 @@ bot.onText(/(.+)/, (msg, match) => {
 
       var dt2 = dateTime.create();
       var formatted2 = dt2.format('Y-m-d H:M:S');
-      fs.appendFileSync(__dirname + '/'+options.chatId+'.log', formatted2+' '+'bot: '+str+'\n');
+      fs.appendFileSync(__dirname + '/'+user+chatId+'.log', formatted2+' '+'bot: '+str+'\n');
       
       console.log('chiuso')
     });
