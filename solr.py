@@ -6,10 +6,12 @@ import sys
 import pysolr
 from random import randint
 import re
+from cosineSimilarity import get_cosine
 
 training_path = "/home/ubuntu/progettoSII/intents"
 #training_path = "/Users/blackmamba/Desktop/SII-chatbot/intents"
-solr = pysolr.Solr('http://localhost:8983/solr/prova', timeout=10)
+coreSmallTalk = pysolr.Solr('http://localhost:8983/solr/prova', timeout=10)
+coreLineAmica = pysolr.Solr('http://localhost:8983/solr/lineamica', timeout=10)
 regex = re.compile(r'\w*(\\xe9|\\xe0|\\xe8|\\xf2|\\xf9|\\xec|\\u0027)')
 regex2 = '\w*(\\xe9|\\xe0|\\xe8|\\xf2|\\xf9|\\xec|\\u0027)'
 
@@ -46,7 +48,7 @@ def add_intents_into_db():
             data['domande'] = domande
             data['risposte'] = risposte
 
-            solr.add([data])
+            coreSmallTalk.add([data])
 
 def changeCodes(messagge):
     if '\\xe9' in messagge:
@@ -65,54 +67,75 @@ def changeCodes(messagge):
         finalMessage = re.sub(r"(\\u0027)", '\'', messagge)
     return finalMessage
 
-def getResponses(phrase):
+def getResponses(results):
 
-    results = solr.search(phrase)
-    if results.__len__()>0:
+
+    messagges = []
+
+    for sentences in results['risposte']:
+        messagges.append(sentences)
+
+    if messagges.__len__()>1:
+        position = randint(1, messagges.__len__() - 1)
+    else:
+        position = 0
+    messagge = messagges[position]
+
+    finalMessage = ''
+    if '\\xe9' in messagge:
+        finalMessage = re.sub(r"(\\xe9)",'é',messagge)
+    elif '\\xe0' in messagge:
+        finalMessage = re.sub(r"(\\xe0)",'à',messagge)
+    elif '\\xe8' in messagge:
+        finalMessage = re.sub(r"(\\xe8)",'è',messagge)
+    elif '\\xf2' in messagge:
+        finalMessage = re.sub(r"(\\xf2)",'ò',messagge)
+    elif '\\xf9' in messagge:
+        finalMessage = re.sub(r"(\\xf9)",'ù',messagge)
+    elif '\\xec' in messagge:
+        finalMessage = re.sub(r"(\\xec)",'ì',messagge)
+    elif '\\u0027' in messagge:
+        finalMessage = re.sub(r"(\\u0027)",'\'',messagge)
+    else:
+        finalMessage = messagge
+    return finalMessage
+
+def searchLineaAmica (phrase):
+    results = coreLineAmica.search(phrase)
+    if len(results) > 0:
+        bestScore = []
         for result in results:
-
-            messagges = []
-
-            for sentences in result['risposte']:
-                messagges.append(sentences)
-
-            if messagges.__len__()>1:
-                position = randint(1, messagges.__len__() - 1)
+            if len(bestScore) is 0:
+                bestScore.append((result, get_cosine(phrase,result['topic'][0].lower())))
             else:
-                position = 0
-            messagge = messagges[position]
+                score = get_cosine(phrase,result['topic'][0].lower)
+                if score>bestScore[0][1]:
+                    bestScore.pop(0)
+                    bestScore.append((result,score))
+                    print ('RESULT',result)
+                    print('BEST', bestScore)
 
-            finalMessage = ''
-            if '\\xe9' in messagge:
-                finalMessage = re.sub(r"(\\xe9)",'é',messagge)
-            elif '\\xe0' in messagge:
-                finalMessage = re.sub(r"(\\xe0)",'à',messagge)
-            elif '\\xe8' in messagge:
-                finalMessage = re.sub(r"(\\xe8)",'è',messagge)
-            elif '\\xf2' in messagge:
-                finalMessage = re.sub(r"(\\xf2)",'ò',messagge)
-            elif '\\xf9' in messagge:
-                finalMessage = re.sub(r"(\\xf9)",'ù',messagge)
-            elif '\\xec' in messagge:
-                finalMessage = re.sub(r"(\\xec)",'ì',messagge)
-            elif '\\u0027' in messagge:
-                finalMessage = re.sub(r"(\\u0027)",'\'',messagge)
-            else:
-                finalMessage = messagge
-            return finalMessage
+            #return getResponses(result)
+        print('FINALBESTSCORE', bestScore[0][0])
+        print('FINALBESTSCORE', bestScore[0][1])
+        return getResponses(bestScore[0][0])
     else:
         return 'non so ancora come risponderti'
 
-
+def selectCore(phrase):
+    results = coreSmallTalk.search(phrase)
+    if len(results) > 0:
+        for result in results:
+            for domanda in result['domande']:
+                value = get_cosine(phrase, domanda.lower())
+                print (value)
+                if value > 0.4:
+                    return getResponses(result)
+            break
+    return searchLineaAmica(phrase)
 
 if __name__ == '__main__':
     if sys.argv.__len__()>2:
         globals()[sys.argv[1]](sys.argv[2])
     else:
         globals()[sys.argv[1]]()
-
-
-
-
-
-

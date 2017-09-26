@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/messages', methods = ['GET'])
 def api_message():
     message = request.json['message']
-    return getResponse(message)
+    return getResponse(message.lower())
 
 if __name__ == '__main__':
     app.run()
