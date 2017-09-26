@@ -1,5 +1,6 @@
 # coding=utf-8
 import re, math
+import nltk
 from nltk.stem.snowball import SnowballStemmer
 from collections import Counter
 from nltk.corpus import stopwords
@@ -14,17 +15,6 @@ tagger = Tagger(language="it")
 
 stemmer = SnowballStemmer("italian")
 stoplist = stopwords.words('italian')
-
-#def stopping(text):
- #    text_nostopwords =''
-  #   for word in unicode(text,'utf-8').lower().split():
-   #       if word not in stop:
-    #           text_nostopwords += ' '+word
-     #return text_nostopwords
-
-#print stopping('come stai   ')
-
-#print 'TAG',tagger.tag('ciao bella sono ricco')[0][0]
 
 def analyzeSentence(text):
     taggedSentence = tagger.tag(re.sub('\W',' ',text))
