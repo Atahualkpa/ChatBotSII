@@ -116,8 +116,8 @@ def searchLineaAmica (phrase):
                     print('BEST', bestScore)
 
             #return getResponses(result)
-        print('FINALBESTSCORE', bestScore[0][0])
-        print('FINALBESTSCORE', bestScore[0][1])
+        #print('FINALBESTSCORE', bestScore[0][0])
+        #print('FINALBESTSCORE', bestScore[0][1])
         return getResponses(bestScore[0][0])
     else:
         return 'non so ancora come risponderti'
