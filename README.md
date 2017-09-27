@@ -40,6 +40,9 @@ nltk.download(‘stopwords’)
 che si trova commentato all’interno del file cosineSimilarity.py
 
 
+
+
+
 Infine il db Solr viene popolato con i comandi:
 
 ```
