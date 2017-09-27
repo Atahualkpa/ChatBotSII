@@ -44,3 +44,7 @@ Infine il db Solr viene popolato con i comandi:
 python lineAmicaCore.py
 python solr.py add_intents_into_db
 ```
+
+## Possibili sviluppi futuri
+In primo luogo il primo miglioramento che si può introdurre è l'aggiunta di dati all'interno del db Solr per aumentare le probabilità di "matchare" la query dell utente.
+Inoltre si potrebbe aumentare la precisione della ChatBot prendendo in considerazione i sinonimi dei sostantivi presenti nella query. Infine la precisione potrebbe essere aumentata anche riducendo, se possibile, sostantivi, verbi e aggettivi alla loro radice comune.  
