@@ -10,12 +10,11 @@ from cosineSimilarity import get_cosine
 
 training_path = "/home/ubuntu/progettoSII/intents"
 #training_path = "/Users/blackmamba/Desktop/SII-chatbot/intents"
-coreSmallTalk = pysolr.Solr('http://localhost:8983/solr/prova', timeout=10)
-coreLineAmica = pysolr.Solr('http://localhost:8983/solr/lineamica', timeout=10)
 regex = re.compile(r'\w*(\\xe9|\\xe0|\\xe8|\\xf2|\\xf9|\\xec|\\u0027)')
 regex2 = '\w*(\\xe9|\\xe0|\\xe8|\\xf2|\\xf9|\\xec|\\u0027)'
 
 def add_intents_into_db():
+    coreSmallTalk = pysolr.Solr('http://localhost:8983/solr/prova', timeout=10)
     for filename in listdir(training_path):
         if filename.endswith(".json"):
             f = open(training_path + "/" + filename, "r")
@@ -49,6 +48,7 @@ def add_intents_into_db():
             data['risposte'] = risposte
 
             coreSmallTalk.add([data])
+            coreLineAmica.get_session().close()
 
 def changeCodes(messagge):
     if '\\xe9' in messagge:
@@ -80,50 +80,36 @@ def getResponses(results):
     else:
         position = 0
     messagge = messagges[position]
-
-    finalMessage = ''
-    if '\\xe9' in messagge:
-        finalMessage = re.sub(r"(\\xe9)",'é',messagge)
-    elif '\\xe0' in messagge:
-        finalMessage = re.sub(r"(\\xe0)",'à',messagge)
-    elif '\\xe8' in messagge:
-        finalMessage = re.sub(r"(\\xe8)",'è',messagge)
-    elif '\\xf2' in messagge:
-        finalMessage = re.sub(r"(\\xf2)",'ò',messagge)
-    elif '\\xf9' in messagge:
-        finalMessage = re.sub(r"(\\xf9)",'ù',messagge)
-    elif '\\xec' in messagge:
-        finalMessage = re.sub(r"(\\xec)",'ì',messagge)
-    elif '\\u0027' in messagge:
-        finalMessage = re.sub(r"(\\u0027)",'\'',messagge)
-    else:
-        finalMessage = messagge
-    return finalMessage
+    return messagge
 
 def searchLineaAmica (phrase):
+    coreLineAmica = pysolr.Solr('http://localhost:8983/solr/lineamica')
+    print ('Dentro lineamica')
     results = coreLineAmica.search(phrase)
+    print ('RESULT lineamica', results)
     if len(results) > 0:
         bestScore = []
         for result in results:
             if len(bestScore) is 0:
                 bestScore.append((result, get_cosine(phrase,result['topic'][0].lower())))
             else:
-                score = get_cosine(phrase,result['topic'][0].lower)
+                score = get_cosine(phrase,result['topic'][0].lower())
                 if score>bestScore[0][1]:
                     bestScore.pop(0)
                     bestScore.append((result,score))
-                    print ('RESULT',result)
-                    print('BEST', bestScore)
-
-            #return getResponses(result)
-        #print('FINALBESTSCORE', bestScore[0][0])
-        #print('FINALBESTSCORE', bestScore[0][1])
-        return getResponses(bestScore[0][0])
+        print ('BEST SOLUTION',bestScore[0])
+        if bestScore[0][1]>0.2:
+            return getResponses(bestScore[0][0])
+        else:
+            return 'non so ancora come risponderti'
     else:
         return 'non so ancora come risponderti'
 
 def selectCore(phrase):
+    print('ciao')
+    coreSmallTalk = pysolr.Solr('http://localhost:8983/solr/prova')
     results = coreSmallTalk.search(phrase)
+    print (results)
     if len(results) > 0:
         for result in results:
             for domanda in result['domande']:
@@ -132,6 +118,8 @@ def selectCore(phrase):
                 if value > 0.4:
                     return getResponses(result)
             break
+    print ('uscito')
+    print (coreSmallTalk.get_session())
     return searchLineaAmica(phrase)
 
 if __name__ == '__main__':

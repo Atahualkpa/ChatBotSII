@@ -1,6 +1,5 @@
 # coding=utf-8
 import re, math
-import nltk
 from nltk.stem.snowball import SnowballStemmer
 from collections import Counter
 from nltk.corpus import stopwords
@@ -11,7 +10,6 @@ tagger = Tagger(language="it")
 
 #nltk.download('stopwords')
 
-#WORD = re.compile(r'\w+')
 
 stemmer = SnowballStemmer("italian")
 stoplist = stopwords.words('italian')
