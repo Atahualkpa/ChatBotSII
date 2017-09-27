@@ -33,15 +33,10 @@ pip install pysolr
 pip install flask
 ```
 
-Per poter effettuare lo stopping, si deve eseguire (solo la prima volta!) il comando:
+Per poter effettuare lo stopping, si deve eseguire (solo la prima volta!) il comando, che si trova commentato all’interno del file cosineSimilarity.py:
 ```
 nltk.download(‘stopwords’)
 ```
-che si trova commentato all’interno del file cosineSimilarity.py
-
-
-
-
 
 Infine il db Solr viene popolato con i comandi:
 
