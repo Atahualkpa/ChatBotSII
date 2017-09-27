@@ -14,7 +14,7 @@ Per questo core, invece, vengono estratti da Solr gli argomenti (topic) della do
 Se la coseno-similarità non soddisfa queste ultime specifiche, il chatbot non saprà come rispondere. 
 
 
-## Requisiti per testing del codice
+## Requisiti per il testing del codice
 Oltre all’aver installato ovviamente Python e Node.js, sono necessari i seguenti moduli per node:
 
 ```
